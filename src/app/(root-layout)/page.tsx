@@ -1,10 +1,7 @@
-import { authClient } from "@/lib/auth-client"
 
-async function page() {
-    const session = await authClient.getSession()
-    console.log("session", session)
+function page() {
     return (
-        <div>page </div>
+        <div>page</div>
     )
 }
 
