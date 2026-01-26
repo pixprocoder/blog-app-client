@@ -1,9 +1,12 @@
 
-import React from 'react'
+import { RegisterForm } from '@/components/modules/authentication/register-form'
 
 function RegisterPage() {
     return (
-        <div>RegisterPage</div>
+        <div className="container mx-auto">
+            <RegisterForm />
+
+        </div>
     )
 }
 
